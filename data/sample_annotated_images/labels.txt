@@ -1,0 +1,7 @@
+doors
+toilets
+bathtubs
+sinks
+stairs
+showers
+windows

@@ -1,0 +1,48 @@
+                            || exit passageway ||
+                            =====================
+
+Programs start
+if classified class = "exit passageway":
+
+    if occupantload > 50:
+        if exit passageway width > 44inches or 1118mm:
+            complai = Pass
+        elif Doors complying with Section 1005.2:
+            complai = Pass
+        else:
+            complai = Fails at "1023.2 Width"
+
+    if occupantload < 50:
+        if exit passageway width > 36inches or 914mm:
+            complai = Pass
+        elif Doors complying with Section 1005.2:
+            complai = Pass
+        else:
+            complai = Fails at "1023.2 Width"
+
+    if exit passageway enclosures fire resistance rating > I-hour
+        complai = Pass
+    else:
+        complai = Fails at "1023.3 Construction"
+
+    if exit passageway constructed as fire barriers in accordance with Section 707:
+        complai = Pass
+    elif horizontal assemblies constructed in accordance with Section 712:
+        complai = Pass
+    else:
+        complai = Fails at "1023.3 Construction"
+
+    if exit passageway terminates at an exit discharge or a public way:
+        complai = Pass
+    else:
+        complai = Failed to comply with Section 1022.2.1 (1023.5)
+
+    if Elevators open into exit passageway:
+        complai = Fail at "1023.5 Openings and penetrations"
+    else:
+        complai = Pass
+
+
+    
+
+
